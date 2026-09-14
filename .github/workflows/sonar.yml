@@ -42,6 +42,6 @@ jobs:
         run: >
           mvn -B verify
           org.sonarsource.scanner.maven:sonar-maven-plugin:sonar
-          -Dsonar.projectKey=com.example:PruebaProyectoGitHubActions
+          -Dsonar.projectKey=manuel-romo_PruebaGitHubActions
           -Dsonar.organization=manuel-romo
           -Dsonar.qualitygate.wait=true
